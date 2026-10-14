@@ -4,6 +4,7 @@
 
 # ---------- VERİ SETLERİ ----------
 # Büyük veri dosyaları GitHub'a yüklenmez
+data/
 data/raw/
 data/processed/
 data/augmented/
@@ -57,3 +58,4 @@ wandb/
 # ---------- YOLO EĞİTİM ÇIKTILARI ----------
 runs/detect/
 runs/classify/
+
