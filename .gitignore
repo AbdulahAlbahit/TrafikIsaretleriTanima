@@ -1,0 +1,59 @@
+# =============================================
+# Trafik İşareti Tanıma Projesi - .gitignore
+# =============================================
+
+# ---------- VERİ SETLERİ ----------
+# Büyük veri dosyaları GitHub'a yüklenmez
+data/raw/
+data/processed/
+data/augmented/
+
+# ---------- EĞİTİLMİŞ MODELLER ----------
+models/*.pt
+models/*.h5
+models/*.pth
+models/*.onnx
+models/*.tflite
+
+# ---------- PYTHON ----------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ---------- SANAL ORTAM ----------
+venv/
+env/
+.env/
+.venv/
+
+# ---------- JUPYTER / COLAB ----------
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# ---------- IDE ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---------- İŞLETİM SİSTEMİ ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- LOG VE GEÇİCİ DOSYALAR ----------
+*.log
+runs/
+wandb/
+*.tmp
+*.bak
+
+# ---------- YOLO EĞİTİM ÇIKTILARI ----------
+runs/detect/
+runs/classify/

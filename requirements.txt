@@ -1,0 +1,27 @@
+# Proje Bağımlılıkları
+# Kurulum: pip install -r requirements.txt
+
+# ===== DERİN ÖĞRENME =====
+torch>=2.0.0
+torchvision>=0.15.0
+ultralytics>=8.0.0          # YOLOv8
+
+# ===== GÖRÜNTÜ İŞLEME =====
+opencv-python>=4.8.0
+albumentations>=1.3.0       # Sentetik bozulma (sis, gürültü, karanlık)
+Pillow>=10.0.0
+
+# ===== VERİ ANALİZİ VE GÖRSELLEŞTİRME =====
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# ===== MAKİNE ÖĞRENİMİ METRİKLERİ =====
+scikit-learn>=1.3.0
+
+# ===== YARDIMCI =====
+tqdm>=4.65.0                # İlerleme çubuğu
+PyYAML>=6.0                 # YOLO config dosyaları için
+gdown>=4.7.0                # Google Drive'dan veri indirme
+kaggle>=1.5.0               # Kaggle API ile veri seti indirme
