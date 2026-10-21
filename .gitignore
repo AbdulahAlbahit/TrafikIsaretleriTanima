@@ -1,7 +1,9 @@
 # =============================================
 # Trafik İşareti Tanıma Projesi - .gitignore
 # =============================================
-
+EKIP_REHBERI.md
+docs/EKIP_REHBERI.md
+*.pt
 # ---------- VERİ SETLERİ ----------
 # Büyük veri dosyaları GitHub'a yüklenmez
 data/
