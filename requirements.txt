@@ -11,6 +11,9 @@ opencv-python>=4.8.0
 albumentations>=1.3.0       # Sentetik bozulma (sis, gürültü, karanlık)
 Pillow>=10.0.0
 
+# ===== ARAYÜZ =====
+streamlit>=1.32.0
+
 # ===== VERİ ANALİZİ VE GÖRSELLEŞTİRME =====
 numpy>=1.24.0
 pandas>=2.0.0

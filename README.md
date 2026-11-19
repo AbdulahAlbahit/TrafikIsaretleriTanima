@@ -32,6 +32,7 @@ Bu projenin amacı; **otonom araçlar** ve **gelişmiş sürüş destek sistemle
 │   └── 03_test_ve_analiz.ipynb
 │
 ├── 📁 src/                   # Python kaynak kodları
+│   ├── app.py                # Streamlit ile görsel trafik işareti tanıma arayüzü
 │   ├── data_utils.py         # Görüntü bozma ve veri hazırlama
 │   ├── train.py              # Model eğitim scripti
 │   └── evaluate.py           # Başarı metrikleri hesaplama
@@ -58,8 +59,8 @@ Bu projenin amacı; **otonom araçlar** ve **gelişmiş sürüş destek sistemle
 
 ### 1. Depoyu Klonlayın
 ```bash
-git clone https://github.com/KULLANICI_ADINIZ/Trafik-Isareti-Tanima.git
-cd Trafik-Isareti-Tanima
+git clone https://github.com/AbdulahAlbahit/TrafikIsaretleriTanima.git
+cd TrafikIsaretleriTanima
 ```
 
 ### 2. Sanal Ortam Oluşturun (Önerilen)
@@ -83,6 +84,16 @@ kaggle datasets download -d meowmeowmeowmeowmeow/gtsrb-german-traffic-sign -p da
 ```
 
 > **Not:** Kaggle API kullanmak için `~/.kaggle/kaggle.json` dosyanızın yapılandırılmış olması gerekir.
+
+### Trafik İşareti Tanıma Arayüzü
+
+Model ağırlıkları boyutları nedeniyle Git deposuna eklenmez. Eğitilmiş YOLO
+ağırlık dosyanızı `models/best.pt` konumuna yerleştirin, ardından uygulamayı
+başlatın:
+
+```bash
+streamlit run src/app.py
+```
 
 ## 📊 Veri Seti
 
