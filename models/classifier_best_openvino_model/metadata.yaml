@@ -1,0 +1,66 @@
+description: Ultralytics YOLOv8s-cls model trained on /content/gtsrb_cls
+author: Ultralytics
+date: '2026-11-23T02:20:57.601327+03:00'
+version: 8.4.191
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 1
+task: classify
+head: Classify
+batch: 1
+imgsz:
+- 96
+- 96
+names:
+  0: Ada Etrafinda Donunuz
+  1: Agir Tasit Sollama Yasagi
+  2: Agir Tasit Sollama Yasagi Sonu
+  3: Ana Yol - Tali Yol Kavsagi
+  4: Bisiklet Gecebilir
+  5: Buzlanma - Kar
+  6: Dikkat - Tehlike
+  7: Dur
+  8: Girisi Olmayan Yol
+  9: Hiz Limiti (100 km-s)
+  10: Hiz Limiti (120 km-s)
+  11: Hiz Limiti (20 km-s)
+  12: Hiz Limiti (30 km-s)
+  13: Hiz Limiti (50 km-s)
+  14: Hiz Limiti (60 km-s)
+  15: Hiz Limiti (70 km-s)
+  16: Hiz Limiti (80 km-s)
+  17: Hiz Limiti Sonu (80 km-s)
+  18: Ileri Mecburi Yon
+  19: Ileri ve Saga Mecburi Yon
+  20: Ileri ve Sola Mecburi Yon
+  21: Kamyon Giremez
+  22: Kasisli Yol
+  23: Kaygan Yol
+  24: Okul Gecidi
+  25: Oncelikli Yol
+  26: Saga Mecburi Yon
+  27: Sagdan Daralan Kaplama
+  28: Sagdan Gidiniz
+  29: Sola Mecburi Yon
+  30: Soldan Gidiniz
+  31: Sollama Yasagi
+  32: Sollama Yasagi Sonu
+  33: Tasit Trafigine Kapali Yol
+  34: Tehlikeli Saga Viraj
+  35: Tehlikeli Sola Viraj
+  36: Tehlikeli Virajlar (Ilki Sola)
+  37: Trafik Isiklari
+  38: Tum Yasaklarin Sonu
+  39: Vahsi Hayvan Gecebilir
+  40: Yaya Gecidi
+  41: Yol Calismasi
+  42: Yol Ver
+args:
+  data: null
+  batch: 1
+  fraction: 1.0
+  quantize: null
+  nms: null
+  dynamic: false
+channels: 3
+end2end: false
